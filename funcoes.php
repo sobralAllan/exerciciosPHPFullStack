@@ -124,6 +124,11 @@
         return "A média é: $media";
     }//fim do método
 
+    //9. Leia números até que a soma ultrapasse 100.
+    
+
+
+
 
 
 
