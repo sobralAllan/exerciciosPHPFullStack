@@ -124,8 +124,28 @@
         return "A média é: $media";
     }//fim do método
 
-    //9. Leia números até que a soma ultrapasse 100.
+    //14. crie dois vetores de 10 posições e preencha um com a soma
+    // e o outro com a multiplicação entre eles
+    function mostrarVetor($vetor){
+        //USAR UM OU OUTRO NUUUUNNNCCAAAAAAA OS DOIS
+        for($i=0;$i<count($vetor);$i++){
+            echo $vetor[$i];
+        }
+
+        foreach($vetor as $valor){
+            echo $valor."<br>";
+        }
+    }//fim do mostrar vetor
     
+    function mostrarMatriz($matriz){
+        for($i=0;$i<=1;$i++){
+            for($j=0;$j<=1;$j++){
+                echo $matriz[$i][$j]." ";
+            }
+            echo "<br>";
+        }
+    }//fim do método
+
 
 
 
